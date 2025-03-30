@@ -26,7 +26,7 @@ const LandingPage: React.FC = () => {
       <section className="container mx-auto px-4 py-12 md:py-24 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Welcome to <span className="text-cafeteria-primary">CampusFuel</span>
+            Welcome to <span className="text-cafeteria-primary">SchoolBites</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             The smart way to manage school meals, reduce waste, and make healthier choices.
@@ -53,7 +53,7 @@ const LandingPage: React.FC = () => {
       
       {/* Features Section */}
       <section className="container mx-auto px-4 py-16 md:py-24">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-12">What CampusFuel Offers</h2>
+        <h2 className="text-3xl font-bold text-gray-800 text-center mb-12">What SchoolBites Offers</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FeatureCard 
             title="Pre-Order Meals" 
@@ -122,7 +122,7 @@ const LandingPage: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <Logo className="mb-4 md:mb-0" />
             <div className="text-center md:text-right">
-              <p>© {new Date().getFullYear()} CampusFuel. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} SchoolBites. All rights reserved.</p>
             </div>
           </div>
         </div>
